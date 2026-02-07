@@ -97,6 +97,10 @@
     font-weight: 500;
 }
 
+.text-1 a {
+    text-decoration: none;
+}
+
 .order {
     color: white;
     background-color: rgb(57, 106, 221);
@@ -123,4 +127,130 @@
 
 .inventory:hover {
     background-color: rgb(217, 214, 214);
+}
+
+.feature {
+    display: flex;
+    position: relative;
+    gap: 30px;
+    margin: 30px;
+}
+
+.photo-1 {
+    width: 58%;
+    height: 40%;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.photo-1 img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.photo-2 {
+    width: 40%;
+    height: 560px;
+    overflow: hidden;
+    margin-right: 20px;   
+
+    border-radius: 10px;
+}
+
+.photo-2 img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.head-text-1 {
+    position: absolute;
+    color: white;
+
+    top: 70%;
+    left: 4%;
+
+    font-size: 38px;
+    font-weight: 520;
+}
+
+.inside-1 {
+    display: flex;
+    align-items: center;
+    justify-items: left;
+    gap: 10px;
+    position: absolute;
+    color: white;
+    top: 83%;
+    left: 4%;
+}
+
+.inside-1 a {
+    text-decoration: none;
+}
+
+.demo {
+    color: white;
+    background-color: rgb(57, 106, 221);
+    padding: 10px 40px;
+    font-size: 15px;
+    border-radius: 5px;
+
+    transition: 0.3s;
+
+    text-decoration: none;
+}
+
+.demo:hover {
+    background-color: rgb(48, 85, 171);
+}
+
+.report {
+    color: rgb(65, 61, 61);
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+
+    transition: 0.3s;
+
+    text-decoration: none;
+}
+
+.report:hover {
+    background-color: rgb(217, 214, 214);
+}
+
+.head-text-2 {
+    position: absolute;
+    color: white;
+
+    top: 58%;
+    font-size: 50px;
+    margin: 0 30px;
+    font-weight: 520;
+}
+
+.inside-2 {
+    position: absolute;
+    color: white;
+    margin: 0 30px;
+    top: 84%;
+}
+
+.inside-2 a {
+    text-decoration: none;
+}
+
+.discover {
+    color: white;
+    background-color: rgb(57, 106, 221);
+    padding: 10px 65px;
+    font-size: 15px;
+    border-radius: 5px;
+
+    transition: 0.3s;
+}
+
+.discover:hover{
+    background-color: rgb(48, 85, 171);
 }
