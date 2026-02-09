@@ -20,7 +20,7 @@
 }
 
 .left-container img{
-    width: 120px;
+    width: 90px;
     display: block;
     margin-left: 40px;
 }
@@ -140,7 +140,8 @@
     display: flex;
     position: relative;
     gap: 30px;
-    margin: 40px 25px;
+    margin: 0 45px;
+    padding-top: 130px;
 }
 
 .photo-1 {
@@ -380,7 +381,7 @@
 
 .car-model-slide {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     align-items: center;
     border-radius: 5px;
     margin: 40px 45px;
@@ -407,6 +408,13 @@
     min-width: 1000px;
 
     scroll-snap-align: center;
+
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .head-model-1, .head-model-2, .head-model-3, .head-model-4{
@@ -538,7 +546,7 @@
 
 .energy-card img {
     display: flex;
-    width: 1000px;
+    width: 1200px;
 
     border-radius: 10px;
 }
